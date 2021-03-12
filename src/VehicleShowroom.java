@@ -21,6 +21,9 @@ public class VehicleShowroom {
         boolean found_model = false;
         for(int i = 0; i < size; i++){
             if(VehicleList.get(i).getModelNumber() == ModelNumber){
+                if(VehicleList.get(i) instanceof SportsVehicle){
+                    VisitorCount -= 20;
+                }
                 VehicleList.remove(i);
                 found_model = true;
                 break;
