@@ -35,4 +35,8 @@ public class VehicleShowroom {
     public ArrayList<Vehicle> GetVehicles(){
         return VehicleList;
     }
+
+    public int getVisitorCount() {
+        return VisitorCount;
+    }
 }
