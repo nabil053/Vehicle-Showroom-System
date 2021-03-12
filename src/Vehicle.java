@@ -15,31 +15,15 @@ public class Vehicle {
         return ModelNumber;
     }
 
-    public void setModelNumber(int modelNumber) {
-        ModelNumber = modelNumber;
-    }
-
     public String getEngineType() {
         return EngineType;
-    }
-
-    public void setEngineType(String engineType) {
-        EngineType = engineType;
     }
 
     public int getEnginePower() {
         return EnginePower;
     }
 
-    public void setEnginePower(int enginePower) {
-        EnginePower = enginePower;
-    }
-
     public int getTireSize() {
         return TireSize;
-    }
-
-    public void setTireSize(int tireSize) {
-        TireSize = tireSize;
     }
 }
